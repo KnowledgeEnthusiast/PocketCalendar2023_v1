@@ -69,11 +69,10 @@ header h1{
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.4);
 }
-
 .calendar-container{
 /*	border: 1px solid black;*/
 	border-radius: 10px;
-	width: 50%;
+	width: 60%;
 	height: 450px;
 	background: #eee;
 	box-shadow: 2px 2px 6px #000;
