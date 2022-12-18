@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+table{
+/*	border: 1px solid black;*/
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+table tr th{
+/*	border: 1px solid black;*/
+	font-size: 25px;
+	color: #000;
+}
+table tr{
+/*	border: 1px solid black;*/
+}
+table, tr, th, td{
+	border-collapse: collapse;
+/*	border: 1px solid black;*/
+/*	cursor: pointer;*/
+/*	transition: 0.3s ease;*/
+}
+table tr td.days{
+	font-weight: bold;
+}
+table tr td.days:hover{
+	background: none;
+	color: black;
+/*	cursor: default;*/
+}
+table tr td.sunday{
+	color: red;
+}
+table tr td:hover{
+	background: #aaa;
+/*	border-radius: 10px;*/
+	color: #fff;
+}
+table tr td.no-date:hover{
+	background: none;
+	color: black;
+}
+table tr td.sunday:hover{
+/*	border-radius: 10px;*/
+	color: red;
+}
+.holiday{
+	color: red;
+}
+.holiday:hover{
+	color: red;
+}
